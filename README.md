@@ -1,51 +1,6 @@
 # 动态组件做单页应用（无路由）
 
 ### 文件目录
-├─app
-│  ├─modules  <!--EntryComponent.ts文件是动态加载组件的数组-->
-│  │  ├─common
-│  │  │  ├─header  <!--头部-->
-│  │  │  └─navigation-menu  <!--左侧导航栏-->
-│  │  ├─order-manage  <!--订单管理模块-->
-│  │  │  └─vo
-│  │  └─warehouse-manage  <!--出入库管理模块-->
-│  │      ├─page
-│  │      │  ├─warehouse-abnormal
-│  │      │  │  └─vo
-│  │      │  ├─warehouse-area-adjustment
-│  │      │  │  └─vo
-│  │      │  ├─warehouse-check
-│  │      │  │  └─vo
-│  │      │  ├─warehouse-entry-manage
-│  │      │  │  └─vo
-│  │      │  ├─warehouse-info
-│  │      │  │  └─vo
-│  │      │  └─warehouse-leave-manage
-│  │      │      └─vo
-│  │      └─vo
-│  └─shared
-│      └─services
-│           └─ui
-│               └─tabview          
-│  ├─css
-│  │  ├─components
-│  │  │  └─modal
-│  │  ├─helpers
-│  │  └─layout
-│  ├─font-awesome-4.7.0
-│  │  ├─css
-│  │  ├─fonts
-│  │  ├─less
-│  │  └─scss
-│  ├─images
-│  │  └─common
-│  ├─mock-data
-│  └─scripts
-│      ├─fancybox
-│      │  └─helpers
-│      └─jquery
-├─config
-└─environments
 
 ├─app
 │  ├─modules  <!--EntryComponent.ts文件是动态加载组件的数组-->
