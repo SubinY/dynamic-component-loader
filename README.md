@@ -1,7 +1,7 @@
 # 动态组件做单页应用（无路由）
 
 ### 文件目录
-
+```html
 ├─app
 │  ├─modules  <!--EntryComponent.ts文件是动态加载组件的数组-->
 │  │  ├─common
@@ -48,7 +48,7 @@
 │      └─jquery
 ├─config
 └─environments
-
+```
 ### 相关文章学习
 
 [动态组件加载器](https://angular.cn/guide/dynamic-component-loader#动态组件加载器)
